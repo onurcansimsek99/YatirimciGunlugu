@@ -44,5 +44,21 @@ namespace BusinessLayer.Concrete
 		{
 			return _blogdal.GetListAll();
 		}
+
+		public void BlogAdd(Blog blog)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void BloDelete(Blog blog)
+		{
+			throw new NotImplementedException();
+		}
+
+		public List<Blog> GetBlogListWithCategory()
+		{
+			return _blogdal.GetListWithCategory();
+
+        }
 	}
 }
